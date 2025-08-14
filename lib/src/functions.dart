@@ -172,7 +172,7 @@ Future<DateTime?> showCupertinoCalendarPicker(
     barrierLabel: calendarPickerBarrierLabel,
     barrierColor: barrierColor,
     transitionDuration: Duration.zero,
-    routeSettings: const RouteSettings(name: calendarPickerRouteName),
+    routeSettings: const RouteSettings(name: ''),
     useRootNavigator: useRootNavigator,
     transitionBuilder: (
       BuildContext _,
