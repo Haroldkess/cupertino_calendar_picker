@@ -66,22 +66,22 @@ class _CalendarHeaderState extends State<CalendarHeader> {
                     : _decoration.monthDateStyle!,
                 child: Text(headerString),
               ),
-              SizedBox(width: 5.0.scale(context)),
-              AnimatedRotation(
-                duration: innerPickersFadeDuration,
-                curve: Curves.easeInOut,
-                turns: _showYearPicker ? 1.25 : 1.0,
-                child: SizedBox(
-                  width: 11.0.scale(context),
-                  height: 22.0.scale(context),
-                  child:  SizedBox.shrink(),
-                  // Icon(
-                  //   CupertinoIcons.chevron_forward,
-                  //   color: _decoration.monthDateArrowColor,
-                  //   size: calendarMonthPickerIconSize.scale(context),
-                  // ),
-                ),
-              ),
+              // SizedBox(width: 5.0.scale(context)),
+              // AnimatedRotation(
+              //   duration: innerPickersFadeDuration,
+              //   curve: Curves.easeInOut,
+              //   turns: _showYearPicker ? 1.25 : 1.0,
+              //   child: SizedBox(
+              //     width: 11.0.scale(context),
+              //     height: 22.0.scale(context),
+              //     child:  SizedBox.shrink(),
+              //     // Icon(
+              //     //   CupertinoIcons.chevron_forward,
+              //     //   color: _decoration.monthDateArrowColor,
+              //     //   size: calendarMonthPickerIconSize.scale(context),
+              //     // ),
+              //   ),
+              // ),
             ],
           ),
         ),
