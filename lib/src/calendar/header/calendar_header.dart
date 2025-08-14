@@ -74,11 +74,12 @@ class _CalendarHeaderState extends State<CalendarHeader> {
                 child: SizedBox(
                   width: 11.0.scale(context),
                   height: 22.0.scale(context),
-                  child: Icon(
-                    CupertinoIcons.chevron_forward,
-                    color: _decoration.monthDateArrowColor,
-                    size: calendarMonthPickerIconSize.scale(context),
-                  ),
+                  child:  SizedBox.shrink(),
+                  // Icon(
+                  //   CupertinoIcons.chevron_forward,
+                  //   color: _decoration.monthDateArrowColor,
+                  //   size: calendarMonthPickerIconSize.scale(context),
+                  // ),
                 ),
               ),
             ],
