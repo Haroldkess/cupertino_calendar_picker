@@ -312,7 +312,7 @@ Future<TimeOfDay?> showCupertinoTimePicker(
     barrierLabel: timePickerBarrierLabel,
     barrierColor: barrierColor,
     transitionDuration: Duration.zero,
-    routeSettings: const RouteSettings(name: timePickerRouteName),
+    routeSettings: const RouteSettings(name: ''),
     useRootNavigator: useRootNavigator,
     transitionBuilder: (
       BuildContext _,
