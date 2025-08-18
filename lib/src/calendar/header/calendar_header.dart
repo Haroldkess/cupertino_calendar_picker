@@ -35,12 +35,12 @@ class _CalendarHeaderState extends State<CalendarHeader> {
   bool get _isBackwardDisabled => widget.onPreviousMonthIconTapped == null;
   bool get _isForwardDisabled => widget.onNextMonthIconTapped == null;
 
-  void _handleYearPickerStateChange() {
-    setState(() {
-      _showYearPicker = !_showYearPicker;
-      widget.onYearPickerStateChanged.call(_showYearPicker);
-    });
-  }
+  // void _handleYearPickerStateChange() {
+  //   setState(() {
+  //     _showYearPicker = !_showYearPicker;
+  //     widget.onYearPickerStateChanged.call(_showYearPicker);
+  //   });
+  // }
 
   @override
   Widget build(BuildContext context) {
